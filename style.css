@@ -1,7 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .logo-1{
     width: 240px;
 }
 
 a{
     text-decoration: none;
+}
+
+header{
+    padding: 15px;
+    background: linear-gradient(0deg,rgba(98, 29, 128, 1) 0%, rgba(151, 57, 192, 1) 76%);
+}
+
+.logo{
+    color: rgb(255, 212, 248);
+}
+
+.a-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.a-links a {
+    color: rgb(197, 151, 233);
+}
+
+.a-links a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+main{
+    flex: 1;
+    color: rgb(253, 212, 255);
+    font-optical-sizing: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color:rgb(98, 29, 127)
+}
+
+ul{
+    padding-left: 20px;
+}
+
+.pers-title{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.pers1-title{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.fact-title{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.pers-img{
+    margin-top: 20px;
+}
+
+.pers1-img{
+    margin-top: 40px;
+}
+
+.mymn-title{
+    font-size: 28px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color:rgb(98, 29, 127);
+    color: rgb(253, 212, 255);
+    padding: 10px;
+}
+
+footer a{
+    color: rgb(248, 124, 255);;
+}
+
+.fl1{
+    display: flex;
+
+}
+
+.fl12  {
+    padding-left: 13px;
+    width: 400px;
 }
